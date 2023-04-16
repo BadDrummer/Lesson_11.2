@@ -7,9 +7,9 @@ def upper_index(string):
 def upper_first_letter(string):
     splitted_string = string.split(' ')
 
-    new_list = []
+    list = []
     for word in splitted_string:
         new_word = (word[0].upper()+word[1:])
-        new_list.append(new_word)
-    return ' '.join(new_list)
+        list.append(new_word)
+    return ' '.join(list)
 
