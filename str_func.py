@@ -3,8 +3,7 @@
 def upper_index(string):
     return str(string).upper()
 
-'''функция, которая делает заглавными первые буквы слов в строке,
-поступившей со ввода'''
+'''функция, которая делает заглавными первые буквы слов в строке со ввода'''
 def upper_first_letter(string):
     splitted_string = string.split(' ')
 
